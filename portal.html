@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Client Portal | FTD Traders</title>
+  <meta name="description" content="Access your FTD Traders client portal.">
+  <link rel="canonical" href="https://ftdtraders.netlify.app/portal.html">
+  <link rel="icon" type="image/png" href="assets/img/Logo.png?v=20260430">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css?v=20260331u11">
+  <link rel="stylesheet" href="assets/css/responsiveness.css?v=20260331u11">
+</head>
+<body data-page="portal">
+<header class="navbar">
+  <a href="index.html" class="logo">
+    <span class="brand-mark brand-mark--nav"><img src="assets/img/Logo.png?v=20260430" alt=""></span>
+    <span class="logo-text">FTD Traders</span>
+  </a>
+  <button class="menu-btn" type="button" aria-label="Open menu" onclick="toggleMenu()">Menu</button>
+  <nav id="mobileNav">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="performance.html">Performance</a>
+    <a href="contact.html">Contact</a>
+    <a href="portal.html" class="btn btn--primary">Client Portal</a>
+  </nav>
+</header>
+<main>
+  <section class="page-header">
+    <div class="container">
+      <h1>Client Portal</h1>
+      <p>Access your trading dashboard</p>
+    </div>
+  </section>
+  <section class="content-section">
+    <div class="container">
+      <div class="portal-login">
+        <h2>Login to Portal</h2>
+        <form id="portalForm">
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+          </div>
+          <button type="submit" class="btn btn--primary">Login</button>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <h3>FTD Traders</h3>
+        <p>Professional automated trading solutions.</p>
+      </div>
+      <div class="footer__links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="performance.html">Performance</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer__legal">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms of Service</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2026 FTD Traders. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+<script src="assets/js/main.js?v=20260331u11"></script>
+</body>
+</html>
