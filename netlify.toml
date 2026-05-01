@@ -1,0 +1,3 @@
+netlify_version: 3
+publish: "."
+command: ""
